@@ -1,4 +1,4 @@
-<!-- gf-brief source=e00c07cdda0e00cba3b384409f4433167307dc78db6e766ab21638b85d20c37a written=2026-11-27T09:25:20+03:00 -->
+<!-- gf-brief source=e00c07cdda0e00cba3b384409f4433167307dc78db6e766ab21638b85d20c37a written=2026-11-27T09:26:07+03:00 -->
 # Henway Dispatch
 
 ## What it is
