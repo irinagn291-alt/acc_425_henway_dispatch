@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F865BA42D3330EDD5E6BFF /* HenwayDispatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5F3E594DA9D120265896C /* HenwayDispatchUITests.swift */; };
+		0FD6FA848F73D2215E64AF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B295BDA8A4FD2ED9B8AA3282 /* Assets.xcassets */; };
+		41556C2664C5B026EAE90539 /* CrossingField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565EB6F2D97E3A94AB6609E /* CrossingField.swift */; };
+		524269572D94934C164E8285 /* DispatchBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF91BF499055265A68DE93B /* DispatchBook.swift */; };
+		5B2945E8830B302EFC931BAC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8038B0A3D1B54404F7E1A024 /* PrivacyInfo.xcprivacy */; };
+		B211AECB7B270499F563DAE9 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 603A0DAEE45B465EC33A9F56 /* Localizable.xcstrings */; };
+		B44DC7244A8DF6C9A9839E0D /* DispatchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1F7B978B8D19CB6FB1D40 /* DispatchEngine.swift */; };
+		D4EECBF96802CD863243A04D /* DispatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD21D096E07C9DA56F0CE3 /* DispatchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813DED719E266A88F75337E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3D98CD94C1532FEAE9ED2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D438634ABB7AF7DDBB6D7D84;
+			remoteInfo = HenwayDispatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AF91BF499055265A68DE93B /* DispatchBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchBook.swift; sourceTree = "<group>"; };
+		4BF5F3E594DA9D120265896C /* HenwayDispatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HenwayDispatchUITests.swift; sourceTree = "<group>"; };
+		4F67F8D4E173FA126968ADFC /* HenwayDispatch.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HenwayDispatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		603A0DAEE45B465EC33A9F56 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		64A1F7B978B8D19CB6FB1D40 /* DispatchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchEngine.swift; sourceTree = "<group>"; };
+		65DD21D096E07C9DA56F0CE3 /* DispatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchView.swift; sourceTree = "<group>"; };
+		7565EB6F2D97E3A94AB6609E /* CrossingField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingField.swift; sourceTree = "<group>"; };
+		8038B0A3D1B54404F7E1A024 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B295BDA8A4FD2ED9B8AA3282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B35F580882905FC698E8BA1D /* HenwayDispatchUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HenwayDispatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03811E2ED45C92DF25107071 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF5F3E594DA9D120265896C /* HenwayDispatchUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		34E6312756509F9F461FC229 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B295BDA8A4FD2ED9B8AA3282 /* Assets.xcassets */,
+				7565EB6F2D97E3A94AB6609E /* CrossingField.swift */,
+				3AF91BF499055265A68DE93B /* DispatchBook.swift */,
+				64A1F7B978B8D19CB6FB1D40 /* DispatchEngine.swift */,
+				65DD21D096E07C9DA56F0CE3 /* DispatchView.swift */,
+				603A0DAEE45B465EC33A9F56 /* Localizable.xcstrings */,
+				8038B0A3D1B54404F7E1A024 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		723B7B964FA5AAC8D3560D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F67F8D4E173FA126968ADFC /* HenwayDispatch.app */,
+				B35F580882905FC698E8BA1D /* HenwayDispatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C209DFE1DC56CE9406626E57 = {
+			isa = PBXGroup;
+			children = (
+				34E6312756509F9F461FC229 /* Source */,
+				03811E2ED45C92DF25107071 /* UITests */,
+				723B7B964FA5AAC8D3560D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B990388624C363A5673E291 /* HenwayDispatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EF57F2D0670CFC09B8338D /* Build configuration list for PBXNativeTarget "HenwayDispatchUITests" */;
+			buildPhases = (
+				2AB37DE5F89199CDBB20E1D1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646BE07DFBE9F9C12B0CD6E2 /* PBXTargetDependency */,
+			);
+			name = HenwayDispatchUITests;
+			packageProductDependencies = (
+			);
+			productName = HenwayDispatchUITests;
+			productReference = B35F580882905FC698E8BA1D /* HenwayDispatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D438634ABB7AF7DDBB6D7D84 /* HenwayDispatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88004C189E1C7BDA1EB58EF9 /* Build configuration list for PBXNativeTarget "HenwayDispatch" */;
+			buildPhases = (
+				8C837F8CDBEA6B05DE7997AA /* Sources */,
+				EF96079C14B3CA1C133DC927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HenwayDispatch;
+			packageProductDependencies = (
+			);
+			productName = HenwayDispatch;
+			productReference = 4F67F8D4E173FA126968ADFC /* HenwayDispatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3D98CD94C1532FEAE9ED2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6B990388624C363A5673E291 = {
+						TestTargetID = D438634ABB7AF7DDBB6D7D84;
+					};
+				};
+			};
+			buildConfigurationList = 08B7DA53B708929289D8081C /* Build configuration list for PBXProject "HenwayDispatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				bn,
+				en,
+				"en-GB",
+				"en-US",
+				"zh-Hant",
+			);
+			mainGroup = C209DFE1DC56CE9406626E57;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 723B7B964FA5AAC8D3560D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D438634ABB7AF7DDBB6D7D84 /* HenwayDispatch */,
+				6B990388624C363A5673E291 /* HenwayDispatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF96079C14B3CA1C133DC927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD6FA848F73D2215E64AF81 /* Assets.xcassets in Resources */,
+				B211AECB7B270499F563DAE9 /* Localizable.xcstrings in Resources */,
+				5B2945E8830B302EFC931BAC /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB37DE5F89199CDBB20E1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F865BA42D3330EDD5E6BFF /* HenwayDispatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C837F8CDBEA6B05DE7997AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41556C2664C5B026EAE90539 /* CrossingField.swift in Sources */,
+				524269572D94934C164E8285 /* DispatchBook.swift in Sources */,
+				B44DC7244A8DF6C9A9839E0D /* DispatchEngine.swift in Sources */,
+				D4EECBF96802CD863243A04D /* DispatchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		646BE07DFBE9F9C12B0CD6E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D438634ABB7AF7DDBB6D7D84 /* HenwayDispatch */;
+			targetProxy = 813DED719E266A88F75337E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CE29A0C2CF48B0715EAF9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D89724973AC61996EB2C373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.henway.dispatch.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HenwayDispatch;
+			};
+			name = Release;
+		};
+		72E4CF9D54677AE2F877DC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.henway.dispatch.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HenwayDispatch;
+			};
+			name = Debug;
+		};
+		9EC11C31D1575EFC754775A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Henway Dispatch";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.henway.dispatch;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8B18136923EB5A37C8428F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF658FBC48A3697FBFEDE201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Henway Dispatch";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.henway.dispatch;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B7DA53B708929289D8081C /* Build configuration list for PBXProject "HenwayDispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE29A0C2CF48B0715EAF9E6 /* Debug */,
+				E8B18136923EB5A37C8428F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88004C189E1C7BDA1EB58EF9 /* Build configuration list for PBXNativeTarget "HenwayDispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC11C31D1575EFC754775A2 /* Debug */,
+				FF658FBC48A3697FBFEDE201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99EF57F2D0670CFC09B8338D /* Build configuration list for PBXNativeTarget "HenwayDispatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E4CF9D54677AE2F877DC4F /* Debug */,
+				5D89724973AC61996EB2C373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3D98CD94C1532FEAE9ED2D /* Project object */;
+}

@@ -1,0 +1,1 @@
+The first release includes 36 crossing shifts, an offline daily challenge, station timetables, local progress, shift reports and congestion replays.
